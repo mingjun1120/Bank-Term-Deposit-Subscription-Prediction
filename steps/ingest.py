@@ -15,8 +15,3 @@ class Ingestion:
         train_data = pd.read_csv(train_data_path)
         test_data = pd.read_csv(test_data_path)
         return train_data, test_data
-    
-dvc remote modify --system myremote exclude_environment_credential true
-dvc remote modify --system myremote exclude_visual_studio_code_credential true
-dvc remote modify --system myremote exclude_shared_token_cache_credential true
-dvc remote modify --system myremote exclude_managed_identity_credential true
