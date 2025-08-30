@@ -1,5 +1,4 @@
 [core]
     remote = myremote
 ['remote "myremote"']
-    url = azure://bank-term-deposit-subscription/dataset
-    account_name = storagebankdeposit
+    url = https://storagebankdeposit.blob.core.windows.net/bank-term-deposit-subscription/dataset
