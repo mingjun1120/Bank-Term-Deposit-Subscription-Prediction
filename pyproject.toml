@@ -1,0 +1,33 @@
+[project]
+name = "bank-term-deposit-subscription-prediction"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "category-encoders==2.8.1",
+    "dvc==3.62.0",
+    "dvc-azure==3.1.0",
+    "dvc-gdrive==3.0.1",
+    "dvc-s3==3.2.2",
+    "evidently==0.7.14",
+    "fastapi==0.116.1",
+    "imbalanced-learn==0.14.0",
+    "ipykernel==6.30.1",
+    "ipywidgets==8.1.7",
+    "joblib==1.5.2",
+    "lightgbm==4.6.0",
+    "mkdocs==1.6.1",
+    "mkdocs-material==9.6.18",
+    "mlflow==3.3.2",
+    "nbformat==5.10.4",
+    "pandas==2.2.2",
+    "plotly==5.24.1",
+    "pytest==8.4.1",
+    "pyyaml==6.0.2",
+    "scikit-learn==1.7.1",
+    "seaborn==0.13.2",
+    "setuptools==80.9.0",
+    "shap==0.48.0",
+    "uvicorn==0.35.0",
+]
